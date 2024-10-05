@@ -1,0 +1,10 @@
+name: jlist
+version: '${project.version}'
+main: pro.jabo.jlist.Jlist
+api-version: '1.20'
+author: Smokey
+description: A simple plugin for managing the whitelist in Minecraft.
+commands:
+  jlist:
+    description: Manage the whitelist.
+    usage: /<command> <add|remove> <player>
